@@ -7,6 +7,7 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using AdventureWorks.Models;
+using AdventureWorks.MachineLearning;
 
 namespace AdventureWorks.Controllers
 {
@@ -140,6 +141,14 @@ namespace AdventureWorks.Controllers
             db.PurchaseOrderDetails.Remove(purchaseOrderDetail);
             db.SaveChanges();
             return RedirectToAction("Index");
+        }
+
+        public Int32 PredictQuantity(int id)
+        {
+            var orderPrediction = new OrderPrediction();
+            var value = (Int32)orderPrediction.PredictQuantity(id);
+
+            return value;
         }
 
         protected override void Dispose(bool disposing)
