@@ -1,0 +1,98 @@
+﻿@model AdventureWorks.Models.PurchaseOrderDetail
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>PurchaseOrderDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DueDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DueDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrderQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrderQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UnitPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UnitPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LineTotal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LineTotal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReceivedQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReceivedQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RejectedQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RejectedQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StockedQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StockedQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PurchaseOrderHeader.PurchaseOrderID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PurchaseOrderHeader.PurchaseOrderID)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

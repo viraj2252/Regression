@@ -7,6 +7,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Regression", "Regression\Re
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "AdventureWorks.MachineLearning", "AdventureWorks.MachineLearning\AdventureWorks.MachineLearning.fsproj", "{E2AC5E04-6ED9-4161-B1FA-2446F28CCDD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks", "AdventureWorks.UI\AdventureWorks.csproj", "{B91C9B5A-5EE5-48DE-89A3-E56593C936A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E2AC5E04-6ED9-4161-B1FA-2446F28CCDD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AC5E04-6ED9-4161-B1FA-2446F28CCDD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AC5E04-6ED9-4161-B1FA-2446F28CCDD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B91C9B5A-5EE5-48DE-89A3-E56593C936A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B91C9B5A-5EE5-48DE-89A3-E56593C936A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B91C9B5A-5EE5-48DE-89A3-E56593C936A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B91C9B5A-5EE5-48DE-89A3-E56593C936A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
